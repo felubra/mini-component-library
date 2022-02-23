@@ -12,10 +12,6 @@ export const Wrapper = styled.div `
   line-height: 19px;
   font-size: 16px;
 
-  &:hover {
-    color: ${COLORS.black};
-  }
-
   & > select {
     position: absolute;
     inset: 0;
@@ -24,7 +20,10 @@ export const Wrapper = styled.div `
     height: 100%;
   }
 
-  &:focus,
+  &:hover {
+    color: ${COLORS.black};
+  }
+
   &:focus-within {
     outline: solid 2px black;
   }
