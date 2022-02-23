@@ -25,7 +25,7 @@ export const Wrapper = styled.div `
   }
 
   &:focus-within {
-    outline: solid 2px black;
+    outline-style: solid;
   }
 `;
 
