@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 import { COLORS } from "../../constants";
 
-export const StyledSelect = styled.div ``;
-
 export const Wrapper = styled.div `
   background-color: ${COLORS.transparentGray15};
   color: ${COLORS.gray700};
